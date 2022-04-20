@@ -1,1 +1,207 @@
+body{
+    background-color:  hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    padding-top: 90px;
+}
+.first{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 13px;
+    height: 390px;
+    width: 210px;
+    float: right;
+}
+.sec{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 13px;
+    height: 240px;
+}
+.sec p , h3{
+    color:#fff;
+    margin-left: 20px;
+}
+.sec p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: hsl(236, 100%, 87%);
+}
 
+.sec img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 49px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+}
+.th{
+    color: hsl(235, 45%, 61%);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px;
+ 
+}
+.th .r{
+    color:#fff;
+}
+.th p:hover{
+    color:#fff;
+    cursor: pointer;
+}
+.table1{
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 13px;
+    height: 180px;
+    
+}
+.table1 .s{
+    background-image: url("../images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 42px;
+}
+.table1 .s1 , .table2 .s1 , .table3 .s1 , .table4 .s1, .table5 .s1 , .table6 .s1{
+    border-radius: 13px;
+    background-color:hsl(235, 46%, 20%) ;
+    height: 140px;
+    padding-top:20px;
+}
+.table1 .s1:hover , .table2 .s1:hover , .table3 .s1:hover , .table4 .s1:hover,.table5 .s1:hover , .table6 .s1:hover{
+    cursor: pointer;
+    background-color:  hsl(235, 45%, 61%);
+}
+.table1 span , .table2 span , .table3 span , .table4 span ,  .table5 span, .table6 span{
+    color:#fff;
+    float:left;
+    margin-left: 15px;
+}
+.table1 img , .table2 img , .table3 img , .table4 img , .table5 img, .table6 img{
+    float: right;
+    margin-right: 15px;
+    margin-top: 6px;
+}
+.table1 img:hover{
+   color: #fff;
+}
+.table1 .s1 p , .table2 .s1 p , .table3 .s1 p , .table4 .s1 p , .table5 .s1 p ,.table6 .s1 p{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 40px;
+    font-weight: 100;
+}
+.table1 .s1 .q , .table2 .s1 .q , .table3 .s1 .q , .table4 .s1 .q , .table5 .s1 .q, .table6 .s1 .q{
+   font-size: 12px;
+   margin-top:-20px;
+   color: hsl(236, 100%, 87%);
+}
+.table2{
+    background-color: hsl(195, 74%, 62%);
+    height: 180px;
+    border-radius: 13px;
+}
+.table2 .s2{
+    background-image: url("../images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 42px;
+}
+.table3{
+    background-color: hsl(348, 100%, 68%);
+    height: 180px;
+    border-radius: 13px;
+    
+}
+.table3 .s3{
+    background-image: url("../images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 42px;
+}
+.table4{
+    background-color: hsl(145, 58%, 55%);
+    height: 180px;
+    border-radius: 13px;
+    margin-top: 25px;
+}
+.table4 .s4{
+    background-image: url("../images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 42px;
+}
+.table5{
+    background-color: hsl(264, 64%, 52%);
+    height: 180px;
+    border-radius: 13px;
+    margin-top: 25px;
+}
+.table5 .s5{
+    background-image: url("../images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 42px;
+}
+.table6{
+    background-color: hsl(43, 84%, 65%);
+    height: 180px;
+    border-radius: 13px;
+    margin-top: 25px;
+}
+.table6 .s6{
+    background-image: url("../images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 42px;
+}
+@media(max-width:500px){
+    .table1 , .table2 , .table3{
+        margin-top: 30px;
+    }
+    .first{
+        width: 100%;
+        height: 180px;
+    }
+    .sec{
+        height:120px;
+    }
+    .sec img{
+        float: left;
+        margin-top: 30px;
+    }
+    .sec p , .sec h3{
+        float: left;
+    }
+    .s1 img{
+        margin-right:30px;
+    }
+    .th .tt{
+        display: flex;
+        margin: auto;
+    }
+   
+    .s1 .ra .q{
+        /* padding-top: 30px; */
+       
+        float: right;
+       
+        /* padding-left: 100px; */
+    }
+    .s1 .raa .q{
+       
+        float: right;
+        /* padding-left: 132px; */
+        /* right: 0; */
+    }
+    .s1 .ra .q,.s1 .raa .q{
+        margin-right: 30px;
+        
+        display: flex;
+        right: 0px;
+        margin-top: -47px;
+    
+    }
+}
