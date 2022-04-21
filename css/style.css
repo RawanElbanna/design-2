@@ -182,23 +182,9 @@ body{
         display: flex;
         margin: auto;
     }
-   
-    .s1 .ra .q{
-        /* padding-top: 30px; */
-       
-        float: right;
-       
-        /* padding-left: 100px; */
-    }
-    .s1 .raa .q{
-       
-        float: right;
-        /* padding-left: 132px; */
-        /* right: 0; */
-    }
     .s1 .ra .q,.s1 .raa .q{
         margin-right: 30px;
-        
+          float: right;
         display: flex;
         right: 0px;
         margin-top: -47px;
